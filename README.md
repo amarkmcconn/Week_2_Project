@@ -29,6 +29,7 @@ how: In your repo, go to Settings. The option to change the repo's name should b
 ### Getting Started after Cloning: 
 
 After you clone your repo, you'll have these files already in your project:
+- `.eslintrc.js`
 - `.gitignore`
 - `.htmlhintrc`
 - `grading_script.sh`
@@ -59,12 +60,14 @@ Your project should look like this (not including boostrap):
 ├── css
 │   └── styles.css
 ├── js
-│   └── jquery-version#.js (your version number will vary here) 
-│   └── scripts.js
-├── grading_script.sh
-├── index.html
+│   ├── jquery-version#.js (your version number will vary here) 
+│   ├── scripts.js
 ├── node_modules
 │   ├── (Don't think about what's in here)
+├── .eslintrc.js
+├── grading_script.sh
+├── .htmlhintrc
+├── index.html
 ├── package.json
 ├── package-lock.json
 ├── README.md
