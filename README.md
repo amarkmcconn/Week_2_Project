@@ -3,7 +3,7 @@
 ---
 
 ## Code Review: JavaScript & jQuery
-updated: March 23rd, 2022
+updated: March 23rd, 2022 <br>
 v1.0
 
 ---
@@ -59,7 +59,7 @@ Your project should look like this (not including boostrap):
 ├── css
 │   └── styles.css
 ├── js
-│   └── jquery-version#.js (your version number may vary here) 
+│   └── jquery-version#.js (your version number will vary here) 
 │   └── scripts.js
 ├── grading_script.sh
 ├── index.html
