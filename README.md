@@ -4,7 +4,7 @@
 
 ## Code Review: JavaScript & jQuery
 updated: March 23rd, 2022 <br>
-v1.0
+v1.1
 
 ---
 
@@ -50,9 +50,11 @@ In the top level directory:
 
 4. Create a directory called `js`. In that scripts directory, create a fill called `scripts.js` and download jQuery as described in this lesson [Introduction to jQuery](https://www.learnhowtoprogram.com/introduction-to-programming/javascript-and-web-browsers/introduction-to-jquery)
 
-5. (Optional) Install boostrap if you want.
+5. Add `/*global $*/` at the top of your scripts.js file 
 
-6. You're ready to start the project prompt! You can find it in [Epicenter](https://epicenter.epicodus.com/). Use the `main` branch for your final project. You can create other branches as needed.
+6. (Optional) Install boostrap if you want.
+
+7. You're ready to start the project prompt! You can find it in [Epicenter](https://epicenter.epicodus.com/). Use the `main` branch for your final project. You can create other branches as needed.
 
 Your project should look like this (not including boostrap):
 
