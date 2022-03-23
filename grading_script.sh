@@ -73,20 +73,25 @@ readme_exists() {
   printf "\n"
 }
 
+get_eslint_errors() {
+  printf "### JavaScript Errors:\n"
+  printf "If empty then no errors found. \n"
+  npx eslint ./js/scripts.js
+}
+
 run_htmlhint() {
   printf "### HTML File Check \n"
 
   printf "**Description:** htmlhint checks all html files in your project and outputs any errors below. \n"
-  printf "Each possible error is printed on a new line. \n"
+  printf "Each error is printed on a new line. \n"
   printf "Each error directs you to the file and line in your html file the problem was found. \n\n"
   printf "You may need to turn off word wrap (alt-z or View -> Word Wrap) for better readability. \n"
-  printf "If curious, here is more info on what errors this script checks for. \n\n"
 
   printf "#### HTML Errors: \n"
   npx htmlhint "**/*.html" -f compact
   printf "If empty then no errors found. \n"
   printf "**Be sure to resolve all warnings in your terminal as well.** \n"
-  printf "These warnings are likely html formatting issues such as missing or misplaced tags, or improper indentation. \n"
+  printf "These warnings are likely HTML formatting issues such as missing or misplaced tags, or improper indentation. \n"
   printf "Nothing in terminal means no warnings. \n\n"
 
 }
@@ -109,6 +114,9 @@ run_htmlhint() {
 
   printf "\n" >> "$REVIEWOUTPUT"
   run_htmlhint >> "$REVIEWOUTPUT"
+  printf "\n" >> "$REVIEWOUTPUT"
+  get_eslint_errors >> "$REVIEWOUTPUT"
+   printf "\n" >> "$REVIEWOUTPUT"
 
   check_main_exists >> "$REVIEWOUTPUT"
   printf "\n" >> "$REVIEWOUTPUT"
