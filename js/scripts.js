@@ -7,14 +7,14 @@ $(document).ready(function() {
     const element = parseInt($("#element").val());
 
     if (animal === 1 && color === 1) {
-      $("#ruby1").show();
+      $("#ruby1").fadeIn();
       $("#csharp").hide();
       $("#jas1").hide();
       $("#go").hide();
       $("#python").hide();
     } else if (animal === 2 && color === 2) {
       $("#ruby1").hide();
-      $("#csharp").show();
+      $("#csharp").fadeIn();
       $("#jas1").hide();
       $("#go").hide();
       $("#python").hide();
@@ -28,20 +28,20 @@ $(document).ready(function() {
       $("#jas1").hide();
       $("#ruby1").hide();
       $("#csharp").hide();
-      $("#go").show();
+      $("#go").fadeIn();
       $("#python").hide();
     } else if (animal === 3 && color === 1) {
       $("#jas1").hide();
       $("#ruby1").hide();
       $("#csharp").hide();
       $("#go").hide();
-      $("#python").show();
+      $("#python").fadeIn();
     } else {
       $("#jas1").hide();
       $("#ruby1").hide();
       $("#csharp").hide();
       $("#go").hide();
-      $("#python").show();
+      $("#python").fadeIn();
     }
 
     event.preventDefault();
