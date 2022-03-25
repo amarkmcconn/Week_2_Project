@@ -22,3 +22,15 @@ body {
   display: none;
 }
 
+.image {
+  border: solid black 10px;
+  border-style: double;
+}
+
+.btn {
+  background-color: black;
+  color: aliceblue;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
