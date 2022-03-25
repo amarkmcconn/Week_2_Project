@@ -8,5 +8,13 @@ h5 {
   text-align: center;
 }
 
-.
+body {
+  background-color: blanchedalmond;
+}
+
+.card {
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
 
