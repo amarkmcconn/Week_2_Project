@@ -13,6 +13,7 @@ body {
 }
 
 .card {
+  background-color: .bg-info;
   padding: 5px;
   margin: auto;
   margin-bottom: 1rem;
