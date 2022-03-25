@@ -3,6 +3,11 @@
   text-align: center;
 }
 
+h1, h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 h5 {
   font-style: italic;
   text-align: center;
