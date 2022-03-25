@@ -9,14 +9,14 @@ h5 {
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: rgb(164, 209, 209);
 }
 
 .card {
-  background-color: .bg-info;
-  padding: 5px;
+  padding: 20px;
   margin: auto;
   margin-bottom: 1rem;
+  background-color: #e9ecef;
 }
 
 #ruby1, #csharp, #jas1, #go, #python {
@@ -31,7 +31,6 @@ body {
 .btn {
   background-color: black;
   color: aliceblue;
-  margin: auto;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
