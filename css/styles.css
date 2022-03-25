@@ -35,3 +35,10 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+p {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: larger;
+}
