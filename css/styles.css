@@ -46,3 +46,8 @@ p {
   font-style: italic;
   font-size: larger;
 }
+
+img {
+  width: 40%;
+  border: solid black 5px;
+}
